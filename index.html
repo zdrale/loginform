@@ -3,6 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up</title>
@@ -21,6 +22,14 @@
   </div>
 
   <main>
+      <div class="main-logo">
+          <img src="img/mainlogo.png" alt="main-logo">
+      </div>
+      <div class="side-logos">
+       <img src="img/mint.png" alt="nmint-logo">
+       <img src="img/quick.png" alt="quick-logo">
+       <img src="img/turbo.png" alt="turbo-logo">
+      </div>
     <section class="form-section">
       <form action="POST">
         <div class="center-text">
@@ -37,26 +46,29 @@
         <input type="email" required class="form-input"><br>
         <div class="call-warn">Standard call, messaging or data rates may apply.</div>
         <label class="form-label" for="Password">Password </label>
-        <input type="password" required class="form-input">
+        <input id="password-input" type="password" required class="form-input">
 
         <button class="create-account-button" type="submit"><img class="signin-logo" src="img/signinlogo.png" alt=""> Create Account</button><br>
         <div class="sub-text">
           <i>By clicking Create account, you agree to our
             Terms and have read and acknowledge our Privacy Statement.</i>
         </div>
-
+      
 
 
       </form>
-      <section class="reCaptcha"></section>
+      
     </section>
-
+    <section class="reCaptcha">
+        Invisible reCAPTCHA by Google <a href="">Privacy</a> Policy and  <a href="">Terms of Use.</a>
+      </section>
   </main>
   <footer>
+    <div class="links">
     <a href="">Legal</a>
     <a href="">Privacy</a>
     <a href="">Security</a>
-
+    </div>
     © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
     Terms and conditions, features, support, pricing, and service options subject to change without notice.
   </footer>
