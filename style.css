@@ -1,0 +1,27 @@
+body
+{
+    text-align: center;
+    background-color: #eceef1;
+}
+.form-section
+{
+    background-color:white;
+    margin: 100px auto auto auto;
+    padding: 20px;
+    display: block;
+    background-origin: padding-box;
+    border: black 2px solid;
+    width: 200px;
+
+}
+
+
+.singin-button
+{
+   text-align: right;
+}
+
+.form-label
+{
+    text-align: left !important;
+}
