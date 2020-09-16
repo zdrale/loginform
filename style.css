@@ -12,6 +12,7 @@ body
     background-origin: padding-box;
     border: black 2px solid;
     width: 200px;
+    text-align: left;
 
 }
 
@@ -21,7 +22,26 @@ body
    text-align: right;
 }
 
-.form-label
+.center-text
 {
-    text-align: left !important;
+    text-align: center;
+}
+.sign-in-button
+{
+    text-align: right;
+    height: 35px;
+    width: 100px;
+    margin-right:30px;
+    background-color: #0077c5;
+    color: white;
+    border-radius: 4px;
+    border: black 1px solid;
+}
+.create-account-button
+{
+    background-color: #0077c5;
+    border-radius: 4px;
+    border: black 1px solid;
+    color: white;
+    margin: 10px 0px 0px 40px;
 }
