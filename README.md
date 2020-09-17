@@ -28,13 +28,13 @@ Css
 
 👤 **Sinan Sevgi**
 
-- GitHub: [@githubhandle](https://github.com/sinansevgi)
+- GitHub: [@sinansevgi](https://github.com/sinansevgi)
 - LinkedIn:[LinkedIn](https://www.linkedin.com/in/sinan-s-52559437/)
 - Twitter: [Twitter](https://twitter.com/nativeofcybers1)
 
 👤 **Nikola Zdrale**
 
-- GitHub: [@githubhandle](https://github.com/zdrale)
+- GitHub: [@zdrale](https://github.com/zdrale)
 - LinkedIn:[LinkedIn](https://www.linkedin.com/in/nikola-zdrale)
 - Twitter: [Twitter](https://twitter.com/zdralenikola)
 
