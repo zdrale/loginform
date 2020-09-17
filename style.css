@@ -1,12 +1,12 @@
 body {
   text-align: center;
   background-color: #eceef1;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 .form-section {
   background-color: white;
-  margin: 10px auto 0px auto;
+  margin: 10px auto 0 auto;
   padding: 20px;
   display: block;
   background-origin: padding-box;
@@ -17,7 +17,7 @@ body {
 }
 
 .singin-button {
-  font-size: 10px;
+  font-size: 12px;
   text-align: right;
   display: flex;
   justify-content: flex-end;
@@ -28,6 +28,10 @@ body {
   display: block;
   line-height: 0.3;
   padding-right: 5px;
+}
+
+.signin-info p {
+  margin-top: 7px;
 }
 
 .center-text {
@@ -57,6 +61,10 @@ body {
   border: #0077c5 1px solid;
 }
 
+.sign-in-button:hover {
+  cursor: pointer;
+}
+
 .create-account-button {
   width: 300px;
   padding: 10px;
@@ -65,6 +73,10 @@ body {
   border: #0077c5 1px solid;
   color: white;
   margin: 25px;
+}
+
+.create-account-button:hover {
+  cursor: pointer;
 }
 
 .form-input {
@@ -86,41 +98,41 @@ body {
 .signin-logo {
   height: 1em;
 }
-#password-input
-{
+
+#password-input {
   background: url(img/passwordicon.png) no-repeat;
   background-position-x: 275px;
   background-size: 25px 25px;
   background-position-y: 2px;
 }
-.reCaptcha
-{
+
+.reCaptcha {
   font-size: 10px;
   text-align: center;
   background-color: #eceef1;
   border: #c7c7c7 1px solid;
   width: 390px;
-  margin-left:auto ;
-  margin-right:auto ;
+  margin-left: auto;
+  margin-right: auto;
   height: 40px;
   border-top: 0;
-  padding-top:20px;
+  padding-top: 20px;
   color: #4c4c4c;
 }
-footer
-{
- margin-top:20px;
- display: block;
- text-align: center;
- color: #505050;
- 
-}
-.links > a{
-  text-decoration: none;
+
+footer {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
   color: #505050;
 }
 
-a{
+a {
   color: #0077c5;
   text-decoration: none;
+}
+
+.links > a {
+  text-decoration: none;
+  color: #505050;
 }

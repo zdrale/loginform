@@ -2,11 +2,11 @@
 
 # Sign Up Page
 
-> This is second project in main Microverse curriculum. 
+> This is second project in main Microverse curriculum.
 > This is the clone of Intuit Sign Up page.
 > This is single page web site.
 
-![screenshot](./app_screenshot.png)
+![screenshot](.assets/images/app_screenshot.png)
 
 
 
