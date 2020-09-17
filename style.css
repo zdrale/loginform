@@ -136,3 +136,21 @@ a {
   text-decoration: none;
   color: #505050;
 }
+
+.side-logos
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.logos
+{
+  height: 25px;
+  padding: 5px;
+}
+.logo-text
+{
+  height: 15px;
+  
+}
