@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 body {
   text-align: center;
   background-color: #eceef1;
@@ -36,6 +38,12 @@ body {
 
 .center-text {
   text-align: center;
+}
+
+.center-text h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #4c4c4c;
+  font-size: 25px;
 }
 
 .form-label {
@@ -137,20 +145,17 @@ a {
   color: #505050;
 }
 
-.side-logos
-{
+.side-logos {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-.logos
-{
+
+.logos {
   height: 25px;
   padding: 5px;
 }
-.logo-text
-{
+
+.logo-text {
   height: 15px;
-  
 }
